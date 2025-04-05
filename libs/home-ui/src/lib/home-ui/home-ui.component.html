@@ -1,0 +1,121 @@
+<div class="home">
+  <div class="home__header">
+    <img [src]="img" alt="me" class="home__header-img">
+    <div class="home__header-info">
+      <h2 class="home__title">Alessandro Antonino Rapisarda</h2>
+      <h4 class="home__subtitle">alerapi805&#64;gmail.com</h4>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-5">
+      <div class="home__skills-container">
+        <div class="d-flex justify-content-between">
+          <span>Data di nascita</span>
+          <span class="fw-bold">25/10/2001</span>
+        </div>
+        <div class="d-flex justify-content-between">
+          <span>Luogo di nascita</span>
+          <span class="fw-bold">Belgio</span>
+        </div>
+        <div class="d-flex justify-content-between">
+          <span>Nazionalità</span>
+          <span class="fw-bold">Italiana</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-7">
+      <div class="home__skills-container school">
+        Professionista riflessivo e determinato, con una naturale inclinazione all’ascolto e al lavoro di squadra. Nonostante un carattere riservato, dimostro grande entusiasmo nel collaborare con gli altri per raggiungere obiettivi comuni. Animato da una forte curiosità e desiderio di crescita, affronto ogni nuova sfida con impegno, responsabilità e spirito di miglioramento continuo.
+      </div>
+    </div>
+  </div>
+  <div class="home__skills-container">
+    <h5 class="home__skills-title">Competenze</h5>
+    <div class="home__skills">
+      <lib-common-skill-ui
+        [progress]="75"
+        label="Angular"
+        platform="angular"></lib-common-skill-ui>
+      <lib-common-skill-ui
+        [progress]="50"
+        label="Vue 3"
+        platform="vue"></lib-common-skill-ui>
+      <lib-common-skill-ui
+        [progress]="30"
+        label="React"
+        platform="react"></lib-common-skill-ui>
+      <lib-common-skill-ui
+        [progress]="40"
+        label="React Native"
+        platform="reactnative"></lib-common-skill-ui>
+      <lib-common-skill-ui
+        [progress]="85"
+        label="HTML"
+        platform="html"></lib-common-skill-ui>
+      <lib-common-skill-ui
+        [progress]="85"
+        label="CSS"
+        platform="css"></lib-common-skill-ui>
+    </div>
+    <div class="home__skills">
+      <lib-common-skill-ui
+        [progress]="75"
+        label="Bootstrap"
+        platform="bootstrap"></lib-common-skill-ui>
+      <lib-common-skill-ui
+        [progress]="75"
+        label="Javascript"
+        platform="javascript"></lib-common-skill-ui>
+      <lib-common-skill-ui
+        [progress]="75"
+        label="Typescript"
+        platform="typescript"></lib-common-skill-ui>
+      <lib-common-skill-ui
+        [progress]="20"
+        label="Java"
+        platform="java"></lib-common-skill-ui>
+      <lib-common-skill-ui
+        [progress]="25"
+        label="SQL"
+        platform="sql"></lib-common-skill-ui>
+    </div>
+  </div>
+  <div class="row mx-0">
+    <div class="col-5 ps-0">
+      <div class="home__skills-container">
+        <h5 class="home__skills-title">Inglese</h5>
+        <div class="home__skills">
+          <lib-common-skill-ui
+            [progress]="30"
+            label="Parlato"
+            platform="english"></lib-common-skill-ui>
+          <lib-common-skill-ui
+            [progress]="40"
+            label="Scritto"
+            platform="english"></lib-common-skill-ui>
+          <lib-common-skill-ui
+            [progress]="60"
+            label="Lettura"
+            platform="english"></lib-common-skill-ui>
+        </div>
+      </div>
+    </div>
+    <div class="col-7 pe-0">
+      <div class="home__skills-container">
+        <h5 class="home__skills-title">Esperienze lavorative</h5>
+        <span>Sviluppatore Front End dal 09/01/2023 ad oggi presso RBTech s.r.l. </span>
+      </div>
+      <div class="home__skills-container school">
+        <h5 class="home__skills-title">Istruzione</h5>
+        <span>Diploma di scuola superiore (84 / 100) presso ITIS Galileo Ferraris Acireale (Anno di conseguimento: 2020)</span>
+      </div>
+    </div>
+  </div>
+  <div class="home__skills-container">
+    <h5 class="home__skills-title">Altre Informazioni</h5>
+    <div class="d-flex justify-content-between">
+      <span>Patente</span>
+      <span class="fw-bold">Tipo B (Automunito)</span>
+    </div>
+  </div>
+</div>

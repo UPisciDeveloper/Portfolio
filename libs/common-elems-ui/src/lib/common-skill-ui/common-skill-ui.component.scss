@@ -1,0 +1,35 @@
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 0.5rem;
+
+  &__level {
+    font-weight: bold;
+  }
+
+  &__progress {
+    width: 10rem;
+    position: relative;
+  }
+
+  &__img {
+    position: absolute;
+    left: calc(50% - 2.5rem);
+    top: calc(50% - 2.5rem);
+    width: 5rem;
+    height: 5rem;
+  }
+}
+
+.verygood {
+  color: #2fbf48;
+}
+
+.good {
+  color: #38b6dc;
+}
+
+.base {
+  color: #1a1a1a;
+}

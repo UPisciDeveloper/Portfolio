@@ -1,0 +1,22 @@
+<div class="skill">
+  <div class="skill__progress">
+    <circle-progress
+      [percent]="progress"
+      [radius]="40"
+      [outerStrokeWidth]="6"
+      [innerStrokeWidth]="0"
+      [outerStrokeColor]="colorCircle"
+      [animation]="true"
+      [animationDuration]="300"
+      [showTitle]="false"
+      [showUnits]="false"
+      [showSubtitle]="false"
+      [showBackground]="false"
+      [responsive]="true"
+      [renderOnClick]="false">
+    </circle-progress>
+    <img src="assets/images/{{platform}}.png" alt="angular" class="skill__img" />
+  </div>
+  <span>{{label}}</span>
+  <span class="skill__level {{textSkill.class}}">{{textSkill.label}}</span>
+</div>

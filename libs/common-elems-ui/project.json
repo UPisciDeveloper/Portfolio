@@ -1,0 +1,13 @@
+{
+  "name": "common-elems-ui",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/common-elems-ui/src",
+  "prefix": "lib",
+  "projectType": "library",
+  "tags": ["ui"],
+  "targets": {
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    }
+  }
+}
